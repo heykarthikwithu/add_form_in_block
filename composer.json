@@ -1,0 +1,14 @@
+{
+  "name": "drupal/add_block",
+  "type": "drupal-module",
+  "description": "Add custom block",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/add_block",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/add_block",
+    "source": "http://cgit.drupalcode.org/add_block"
+  },
+  "require": { }
+}

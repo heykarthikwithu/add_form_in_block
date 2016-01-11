@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains add_block.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function add_block_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the add_block module.
+    case 'help.page.add_block':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add custom block') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function add_block_theme() {
+  $theme = [];
+
+  return $theme;
+}
